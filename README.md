@@ -1,6 +1,6 @@
 # myreporgit
 
-I made some changes!
+I made a change
 
 - Your name 
 
