@@ -1,0 +1,64 @@
+
+% Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Mon, Mar 02, 2020 - 6:40:29 PM
+\begin{table}[!htbp] \centering 
+	\footnotesize
+	\caption{Extremeness } 
+	\label{} 
+	\begin{tabular}{@{\extracolsep{50pt}}lccc} 
+		\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+& \multicolumn{3}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-4} 
+\\[-1.8ex] & \multicolumn{3}{c}{Sell}  \\
+\cline{2-4}
+\\[-1.8ex] & (1) & (2) & (3)\\ 
+\hline \\[-1.8ex] 
+		
+
+		I(extremeness)  & 0.018$^{***}$ & $-$0.007 & $-$0.006 \\ 
+		& (0.004) & (0.005) & (0.005) \\ 
+		& & & \\ 
+		1-day return$^-$ $\times$ I(extremeness)  & $-$2.305$^{***}$ & $-$1.575$^{***}$ & $-$1.412$^{***}$ \\ 
+		& (0.162) & (0.234) & (0.232) \\ 
+		& & & \\ 
+		1-day return$^+$ $\times$ I(extremeness)  & 2.419$^{***}$ & 0.865$^{***}$ & 0.567$^{**}$ \\ 
+		& (0.125) & (0.221) & (0.211) \\ 
+		& & & \\ 
+	
+		\hline \\[-1.8ex] 	
+		Controls  & No & No & Yes \\
+		Account $\times$ date FE  & No & Yes & Yes \\ 
+		Stock $\times$ date FE  & No & Yes & Yes \\ 
+		Holding day decile FE   & No & Yes & Yes\\
+        Observations & 473,993 & 473,993 & 473,993 \\ 
+        R$^{2}$ & 0.009 & 0.694 & 0.701 \\ 
+		\hline 
+		\hline \\[-1.8ex] 
+		\multicolumn{4}{l}{This table presents results from linear regressions with stock $\times$ date fixed effects testing whether  }\\
+		\multicolumn{4}{l}{ investors regard the same return differently. The dependent variable is a dummy equal to 1 if the stock }\\ 
+	\multicolumn{4}{l}{ is sold on day t.  1-day return$^+$ equals to 1-day return of the stock from the end of day $t-2$ to the end }\\
+	\multicolumn{4}{l}{of day $t-1$ if the return is positive, 0 otherwise. Similarly, 1-day return$^-$ equals to 1-day return of the  }\\
+	
+	\multicolumn{4}{l}{stock if it is negative, 0 otherwise. $I(extremeness)$ is a dummy indicating whether the corresponding }\\
+	\multicolumn{4}{l}{return is viewed as being extreme by the investor. The exact definition can be found in table 1. }\\
+	
+	\multicolumn{4}{l}{Control variables consist of $return\:since\:purchase^-$,$return\:since\:purchase^+$, $I(return\:since\:purchase^+)$ }\\ 
+	
+	\multicolumn{4}{l}{$\sqrt{Holding\:days}$, $return\:since\:purchase^-$$\times$$\sqrt{Holding\:days}$, $return\:since\:purchase^+$$\times$$\sqrt{Holding\:days}$,}\\
+	
+	 \multicolumn{4}{l}{$variance$, $I(return\:since\:purchase^-)$$\times$$variance$, $I(return\:since\:purchase^+)$$\times$$variance$,}\\
+	
+     \multicolumn{4}{l}{$I(highest\:return\:since\:purchase)$ and $I(lowest\:return\:since\:purchase)$. Account $\times$ date FE refers to a }\\
+	
+	\multicolumn{4}{l}{fixed effect for each interaction of account and date. Stock $\times$ date FE refers to a fixed effect for each }\\
+	\multicolumn{4}{l}{pair of sedol and date. Holding day decile FE refers to a fixed effect for each decile of holding lengths.}\\
+	\multicolumn{4}{l}{ Data  cover the period between March 2012 and August 2016. Only accounts opened after the sample}\\
+	\multicolumn{4}{l}{ period started are included. Only portfolios with at least one sell on the day are included. Portfolios }\\
+	\multicolumn{4}{l}{with less than 5 holdings and stocks held less 5 days are excluded from the analysis. Standard errors }\\
+	\multicolumn{4}{l}{clustered on account and date are presented in parenthese with \textit{p} values indicated by $^{*}$\textit{p}$<$0.05; $^{**}$\textit{p}$<$0.01;}\\ \multicolumn{2}{l}{$^{***}$\textit{p}$<$0.005.}\\ 
+	\end{tabular} 
+\end{table} 
+
+
+
